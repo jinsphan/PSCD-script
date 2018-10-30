@@ -1,6 +1,17 @@
+/*
+<option value="2" >Importwise</option>
+<option value="36" >Bet-Game</option>
+<option value="41" >Web game - bustabit.com</option>
+template: [1, "08:00", 8, "17:00", "your job is here", "22/10/2017"],
+*/
+
+// TODAY
 let data = [
-    [1, "08:00", 8, "17:00", "your job is here", "22/10/2017"], // 22/10/2017 is day worked before
-]
+
+];
+
+// ALL
+
 
 data.map(rp => {
     $.ajax({
@@ -23,3 +34,9 @@ data.map(rp => {
         }
     })
 })
+
+// Backup data
+let bk = [
+[41, "08:00", 6, "15:00", "dev game play page", "30/10/2017"],	
+[36, "15:00", 2, "17:00", "dev game play page", "30/10/2017"],
+];
